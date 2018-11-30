@@ -1,11 +1,12 @@
 package com.example.springbootemo.domain;
 
 import javax.persistence.*;
+import java.io.Serializable;
 
 //1. 实体类
 @Entity
 @Table(name="Girl")
-public class Girl {
+public class Girl implements Serializable {
 
     @Id
     @GeneratedValue

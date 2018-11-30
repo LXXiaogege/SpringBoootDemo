@@ -1,4 +1,4 @@
-package com.example.springbootemo.message;
+package com.example.springbootemo.message.one;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
